@@ -555,6 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 631950662}
   - component: {fileID: 631950663}
+  - component: {fileID: 631950664}
   m_Layer: 0
   m_Name: Unit Selection Handler
   m_TagString: Untagged
@@ -592,6 +593,22 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 1
+--- !u!114 &631950664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631950660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b5486c932296f47aed5c8210541b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  unitSelectionHandler: {fileID: 631950663}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
