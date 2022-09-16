@@ -8,6 +8,11 @@ public class RTSPlayer : NetworkBehaviour
 {
     [SerializeField]private List<Unit> myUnitList = new List<Unit>();
 
+    public List<Unit> GetMyUnits()
+    {
+        return myUnitList;
+    }
+
     #region Server
 
     public override void OnStartServer()
