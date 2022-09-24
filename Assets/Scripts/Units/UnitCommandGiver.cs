@@ -26,12 +26,10 @@ public class UnitCommandGiver : MonoBehaviour
         {
             if (target.hasAuthority)
             {
-                Debug.Log("Friendly fire"); // for testing
                 TryMove(hit.point);
                 return;
             }
 
-            Debug.Log("Attacking"); // for testing
             TryTarget(target);
             return;
         }
