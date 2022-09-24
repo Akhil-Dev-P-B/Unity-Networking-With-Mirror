@@ -13,11 +13,18 @@ public class Unit : NetworkBehaviour
     [SerializeField] private UnitMovement unitMovement = null;
     [SerializeField] private UnityEvent onSelected = null;
     [SerializeField] private UnityEvent onDeselected = null;
+    [SerializeField] private Targeter targeter = null;
 
-     public UnitMovement GetUnitMovement()
+    public UnitMovement GetUnitMovement()
     {
         return unitMovement;
     }
+
+    public Targeter GetTargeter()
+    {
+        return targeter;
+    }
+
 
     #endregion
 
